@@ -7,15 +7,15 @@ namespace thirdTask
         static void Main(string[] args)
         {
             Console.Write("Как тебя зовут? \t");
-            string Name = Console.ReadLine();
+            string name = Console.ReadLine();
 
             Console.Write("Сколько лет? \t");
-            string Age = Console.ReadLine();
+            string age = Console.ReadLine();
 
             Console.Write("Где живешь? \t");
-            string City = Console.ReadLine();
+            string city = Console.ReadLine();
 
-            Console.WriteLine($"Твое имя {Name}, сейчас тебе {Age}, и ты живешь в городе {City}");
+            Console.WriteLine($"Твое имя {name}, сейчас тебе {age}, и ты живешь в городе {city}");
         }
     }
 }
